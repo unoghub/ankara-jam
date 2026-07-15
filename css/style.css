@@ -130,7 +130,7 @@ section.links {
     align-items: center;
 
     gap: 1rem;
-    height: 16rem;
+    height: 12rem;
 }
 
 section.links a {
@@ -166,6 +166,7 @@ section.links div {
 }
 
 section.links .itch-links a {
+    font-size: 1.2rem;
     background-color: var(--itch-pink);
 }
 
@@ -245,6 +246,14 @@ section.sponsors {
 section.sponsors h2 {
     font-size: 2.6rem;
     font-weight: 700;
+}
+
+.sponsor-groups-row {
+    display: flex;
+    margin-top: 2rem;
+    gap: 5rem;
+    justify-content: center;
+    align-items: baseline;
 }
 
 section.sponsors .sponsor-group {
@@ -371,6 +380,8 @@ section.sponsors .sponsor-group {
 
     margin-top: 2rem;
     border-radius: 1rem;
+    
+    gap: 2rem;
 
     /* background: red; */
 }
@@ -381,7 +392,7 @@ section.sponsors .sponsor-group {
     justify-content: center;
     align-items: center;
 
-    width: 60rem;
+    width: fit-content;
     padding: 1rem;
 
     margin-top: 2rem;
